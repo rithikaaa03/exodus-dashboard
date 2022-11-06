@@ -1,11 +1,17 @@
 
-@media(max-width:430px) and (max-height:932px){
-    .body
+@media only screen and (max-width:500px) {
+    body
     {
-        position: relative;
+        position: absolute;
         width: 430px;
         height: 932px;
-        
+        background: #000000;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         background: linear-gradient(164.5deg, #A352BB -9.1%, #132A7C 34.01%, #020C20 86.03%);
         
     }
@@ -173,6 +179,9 @@ top: 20px;
 }
 .dashboard-line
 {
+    position:absolute;
+    bottom:5%;
+    margin-top: 0%;
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(3px);
     width: 231px;
@@ -181,9 +190,25 @@ top: 20px;
 }
 .button
 {
+    width:30.39%;
+    
     background: #000000;
     box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
     border-radius: 15px;
+}
+.button-text
+{
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: rgba(24, 255, 255, 0.8);
+    
+    
 }
 .edit-button
 {
@@ -339,5 +364,118 @@ top: 20px;
 .button1
 {
     background: rgba(23, 33, 113, 0.7);
+}
+.button-text2
+{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #08B3E3;
+}
+.delete-team
+{
+    position: absolute;
+    left: 21.17%;
+    right: 57.9%;
+    top: 88.09%;
+    bottom: 9.87%;
+}
+.leave-team
+{
+    position: absolute;
+left: 57.82%;
+right: 22.41%;
+top: 88.09%;
+bottom: 9.87%;
+}
+.team-name4
+{
+    position: absolute;
+    left: 11.66%;
+    right: 49.73%;
+    top: 24.46%;
+    bottom: 72.1%;
+}
+.team-code4
+{
+    position: absolute;
+    left: 11.66%;
+    right: 52.82%;
+    top: 38.41%;
+    bottom: 58.15%;
+    
+}
+.topic4
+{
+    position: absolute;
+    left: 11.66%;
+    right: 70.27%;
+    top: 52.36%;
+    bottom: 44.21%; 
+}
+.teammates4
+{
+    position: absolute;
+left: 11.66%;
+right: 51.43%;
+top: 66.31%;
+bottom: 30.26%;
+
+}
+.team-nameinput4
+{
+    position: absolute;
+    left: 11.63%;
+    right: 61.16%;
+    top: 27.9%;
+    bottom: 68.67%;
+    
+}
+.team-codeinput4
+{
+    position: absolute;
+    left: 11.63%;
+    right: 71.86%;
+    top: 43.13%;
+    bottom: 53.43%;
+}
+.topicinput4
+{
+    position: absolute;
+    left: 11.63%;
+    right: 53.72%;
+    top: 56.65%;
+    bottom: 39.91%;
+}
+.teammatesinput4
+{
+    position: absolute;
+    left: 11.63%;
+    right: 57.44%;
+    top: 70.17%;
+    bottom: 22.96%;
+}
+.create-team5
+{
+    position: absolute;
+left: 20.04%;
+right: 19.96%;
+top: 14.31%;
+bottom: 80.52%;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: rgba(24, 255, 255, 0.8);
+
+
 }
 
